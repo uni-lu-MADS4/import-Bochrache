@@ -81,7 +81,6 @@ For example, you folder structure could be (depending on the picked names) as he
 # Your answer in code
 # Load the blood_fat.csv file
 blood_fat <- read_csv("data/blood_fat.csv")
-readr::read_delim(blood_fat)
 # Display the first few rows of the data
 head(blood_fat)
 
